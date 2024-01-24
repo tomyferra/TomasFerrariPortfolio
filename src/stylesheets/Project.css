@@ -1,0 +1,51 @@
+
+.project-name{
+  margin: 50px;
+  font-weight: bold;
+  font-size: 30px;
+} 
+.project-summary{
+  margin: 50px;
+}
+
+.project-style{
+  color: white;
+
+}
+.card-title{
+  font-weight: bold;
+}
+.card-body{
+  padding: 10px 10px 10px 10px !important;
+  background-color: #154c79 !important;
+}
+.card-link{
+  text-decoration: none;
+  color: white;
+}
+.card-link:hover{
+  text-decoration: underline;
+  color: white;
+}
+.btn-primary{
+  margin: 10px;
+}
+.projects-container{
+  justify-content: center;
+}
+.projectImage{
+  width: 200%;
+}
+
+.card-container{
+  margin: 20px;
+  border: none;
+  max-width: 300px;
+}
+
+.my-card{
+  padding: 20px;
+}
+.projects-text-container{
+  padding: 30px 0 30px 0;
+}

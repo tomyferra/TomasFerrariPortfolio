@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import NavigationBar from './components/Navbar';
+import About from './components/About';
+import PastWork from './components/Projects';
+import Skills from './components/Skills';
+// import WorkExperience from './components/WorkExperience';
+import Links from './components/Links';
+
+
 import './App.css';
+import ExperienceTimeline from './components/ExperienceTimeline';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mt-auto d-flex flex-column min-vh-100">
+      <div className="row">
+        <NavigationBar />
+        <About />
+        <ExperienceTimeline />
+        {/* <WorkExperience /> */}
+        <PastWork />
+        <Skills />
+        <Links/>
+      </div>
     </div>
   );
 }

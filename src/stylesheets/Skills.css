@@ -1,0 +1,31 @@
+.skills-container{
+
+  color: white;
+  padding: 40px;
+
+}
+.skill-container{
+  padding: 30px;
+}
+.skill-style{
+  margin: 10px 0 10px 0 !important;
+}
+
+.imgLogo{
+  padding: 15px 50px 15px 50px;
+  max-height: 150px;
+  width: auto !important;
+}
+.imgLogo:hover{
+  scale: 1.2;
+}
+.skill-container{
+  justify-content: center;
+  padding: 0 15% 0 15%;
+}
+
+@media screen and (max-width: 700px){
+  .skill-container{
+    padding: 0 5% 0 5%;
+  }
+}
