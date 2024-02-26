@@ -4,11 +4,10 @@ import PastWork from './components/Projects';
 import Skills from './components/Skills';
 // import WorkExperience from './components/WorkExperience';
 import Links from './components/Links';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 import './App.css';
 import ExperienceTimeline from './components/ExperienceTimeline';
-import React from 'react';
 
 function App() {
   ReactGA.initialize('G-1103B8DGCR');
